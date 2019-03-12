@@ -1,27 +1,49 @@
-# ProjectCODESK
+ CODESK PROJECT
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
+=> Objective:
 
-## Development server
+Create Employee Management project with CRUD Operations
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+=> Concepts covered:
 
-## Code scaffolding
+1. Reactive Form
+2. Local Storage
+3. Component Communication
+4. Services
+5. Pipes (for Filters)
+6. Angular Routing
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ Description: 
 
-## Build
+=> Must Use
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+1. Angular Services
+2. Pipes
+3. Component Communication
+4. Angular Routing
+5. Local Storage
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+***WE HAVE TO CREATE***
 
-## Running end-to-end tests
+1. Homepage
+2. Add Employee
+    - First Name
+    - Last Name
+    - Gender
+    - Email
+    - Department
+    - Image URL
+    - Description
+    - Hobbies
+3. Employee view page
+4. Update Employee
+    - Last Name
+    - Gender
+    - Email
+    - Department
+    - Image URL
+    - Description
+    - Hobbies
+5.  Delete Employee
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
