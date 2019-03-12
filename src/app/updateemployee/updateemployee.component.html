@@ -1,0 +1,103 @@
+<div class = "form-title">
+    <h1>UPDATE EMPLOYEE</h1>
+  </div>
+  <div class="add-employee">
+      <div class="container inner-page-container">
+          <form [formGroup]="updateEmployeeForm" (ngSubmit)="onSubmit()">
+              <div class="form-group">
+                  <div class="input">
+                    <input 
+                     placeholder="First Name" 
+                     type="text" 
+                     class="form-control"  
+                     name="firstname"
+                     formControlName = "firstname"
+                    >
+                    <span class="help-block" *ngIf="!addForm.firstname.valid && addForm.firstname.touched">Please enter First Name.</span>
+                  </div>
+                  <br>
+                  <div class="input">
+                    <input placeholder="Last Name" type="text" class="form-control" name="lastname" formControlName = "lastname">
+                    <span class="help-block" *ngIf="!addForm.lastname.valid && addForm.lastname.touched">Please enter Last Name.</span>
+                  </div>
+                </div>
+                <div class="form-group"> 
+                    <label>Gender</label><br>
+                    <input type="radio"   Name="radio">Male
+                    <input type="radio"   Name="radio">Female
+                </div>
+               
+                <div class="form-group">
+                  <div class="input">
+                    <input 
+                      placeholder="Email" 
+                      type="email" 
+                      class="form-control"  
+                      name="email"
+                      formControlName = "emailInput"
+                    >
+                    <span class="help-block" *ngIf="(addForm.emailInput.value === '' || addForm.emailInput.value == undefined) && addForm.emailInput.touched">Please enter Email.</span>
+    
+                  </div>
+                </div>
+               
+                <div class="form-group">
+                  <div class="input">
+                    <input 
+                      placeholder="Phone Number" 
+                      type="text" 
+                      class="form-control"  
+                      name="number"
+                      formControlName = "phone"
+                    >
+                    <span class="help-block" *ngIf="(addForm.phone.value === '' || addForm.phone.value == undefined) && addForm.phone.touched">Please enter Phone Number.</span>
+                    <span class="help-block" *ngIf="(addForm.phone.value !== '' && !addForm.phone.valid ) && addForm.phone.touched">Please enter valid Phone Number.</span>               
+                  </div>
+                </div>
+                <div class="form-group">
+                    <div class="input">
+                      <input 
+                        placeholder="imageurl" 
+                        type="text" 
+                        class="form-control"  
+                        name="image"
+                        formControlName = "imageurl"
+                      >
+                      <span class="help-block" *ngIf="(addForm.imageurl.value === '' || addForm.imageurl.value == undefined) && addForm.imageurl.touched">Please enter imageurl.</span>
+                      <span class="help-block" *ngIf="(addForm.imageurl.value !== '' && !addForm.imageurl.valid ) && addForm.imageurl.touched">Please enter valid imageurl.</span>               
+                    </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="input">
+                        <input 
+                          placeholder="description" 
+                          type="text" 
+                          class="form-control"  
+                          name="description"
+                          formControlName = "description"
+                        >
+                        <span class="help-block" *ngIf="(addForm.description.value === '' || addForm.description.value == undefined) && addForm.description.touched">Please enter description.</span>
+                                       
+                      </div>
+                    </div>
+  
+                    <div class="form-group">
+                      <div class="input">
+                        <input type="checkbox" name="hobbies"  class="one" value="singing">singing
+                        <input type="checkbox" name="hobbies" class="two" value="reading">reading
+                        <input type="checkbox" name="hobbies" class="third" value="dancing">dancing
+                        <input type="checkbox" name="hobbies"  class="four" value="playing">playing
+            
+                        
+                      </div>
+                    </div>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-default" [disabled]="!addEmployeeForm.valid">Add employee</button>
+                </div>  
+          </form>
+          
+      </div>
+    </div>
+     
+    
+    
