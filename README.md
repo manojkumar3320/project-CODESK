@@ -19,7 +19,7 @@ Create Employee Management project with CRUD Operations
 ***WE HAVE TO CREATE***
 
 1. Homepage:
-       In homepage we have to know how many employees are there it shows them. if there is no employees in homepage, then we had to add        employees by using    add employee page.
+      => In homepage we have to know how many employees are there it shows them. if there is no employees in homepage, then we had to add        employees by using    add employee page.
        
 2. Add Employee:
     - First Name
@@ -30,10 +30,10 @@ Create Employee Management project with CRUD Operations
     - Image URL
     - Description
     - Hobbies
-    By adding above details in add employee page and we store those details in local storage. while using those details tehn we can         fetch them.
+    =>By adding above details in add employee page and we store those details in local storage. while using those details tehn we can         fetch them.
     
 3. Employee view page:
-       the use of employee view page we had to know the details of employees.
+      => the use of employee view page we had to know the details of employees.
        
 4. Update Employee:
     - Last Name
@@ -43,7 +43,7 @@ Create Employee Management project with CRUD Operations
     - Image URL
     - Description
     - Hobbies
-      if we have any changes about an employee here we had to update their details.
+     => if we have any changes about an employee here we had to update their details.
 5.  Delete Employee:
-       if there is no use of that employee details then we will delete that employee.
+      => if there is no use of that employee details then we will delete that employee.
 
