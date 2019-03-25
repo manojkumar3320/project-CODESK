@@ -12,17 +12,9 @@ Create Employee Management project with CRUD Operations
 4. Services
 5. Pipes (for Filters)
 6. Angular Routing
+7. Component Communication
 
  Description: 
-
-=> Must Use
-
-1. Angular Services
-2. Pipes
-3. Component Communication
-4. Angular Routing
-5. Local Storage
-
 
 ***WE HAVE TO CREATE***
 
